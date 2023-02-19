@@ -271,11 +271,13 @@
                                             <lable>Gender</lable>
                                             <br>
                                             <label class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" name="gender" checked="" class="custom-control-input">
+                                                <input type="radio" name="gender" checked=""
+                                                       class="custom-control-input">
                                                 <span class="custom-control-label">Male</span>
                                             </label>
                                             <label class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" name="gender" checked="" class="custom-control-input">
+                                                <input type="radio" name="gender" checked=""
+                                                       class="custom-control-input">
                                                 <span class="custom-control-label">Female</span>
                                             </label>
 
@@ -293,7 +295,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-12">
-                                           <button class="btn-success float-right" type="submit">Save</button>
+                                            <button class="btn-success float-right" type="submit">Save</button>
                                         </div>
                                     </div>
                                 </form>
@@ -309,36 +311,42 @@
                             <div class="page-header" id="bottom">
                                 <h2 class="pageheader-title">User List</h2>
                             </div>
-                                    <table class="table table-striped">
-                                        <thead>
-                                        <tr>
-                                            <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                            <th scope="row">1</th>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">2</th>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">3</th>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
+
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Email(username)</th>
+                                    <th scope="col">Gender</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">Role</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Craig Jark</td>
+                                    <td>craig@cydeo.com</td>
+                                    <td>Male</td>
+                                    <td>3128976539</td>
+                                    <td>Employee</td>
+                                    <td>
+                                        <a href="#">
+                                            <button class="btn btn-warning btn-sm">
+                                                Update
+                                            </button>
+                                        </a>
+                                        <a href="#">
+                                            <button class="btn btn-danger btn-sm">
+                                                Delete
+                                            </button>
+                                        </a>
+
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
 
 
                         </div>
